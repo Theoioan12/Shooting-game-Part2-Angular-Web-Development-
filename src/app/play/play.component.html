@@ -1,0 +1,12 @@
+<!--
+    Only the missile, the time box and
+    the points box. UFOs will be created in
+    the typescript component.
+-->
+<img #missile id='missile' src='../../assets/imgs/missile.png' 
+STYLE="left:300px;bottom:10px;height:70px;width:40px;z-index:10"/>
+
+<div #points id='points' style="z-index:1">0</div>
+<div #time id='time'>0</div>
+
+<p *ngIf="showStartMessage">Press space to start!</p>

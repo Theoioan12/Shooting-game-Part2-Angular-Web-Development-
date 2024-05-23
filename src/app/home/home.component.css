@@ -1,0 +1,26 @@
+.information {
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 200px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #1867b7;
+    background-color: rgb(255, 165, 0);
+    font-size: 20px;
+}
+
+.startButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(252, 252, 252);
+    color: #1867b7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 50px;
+}

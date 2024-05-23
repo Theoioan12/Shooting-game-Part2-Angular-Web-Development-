@@ -1,0 +1,26 @@
+
+<!--
+    Almost the same login as the one from the first project.
+    This time I opted for ngModel to get the username and the password.
+-->
+
+<div class="login-container">
+    <h1>Login</h1>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" [(ngModel)]="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" [(ngModel)]="password" name="password" required><br>
+
+        <button id="login" type="button" (click)="sendit()">Login</button>
+        <button id="logout" *ngIf="isLoggedIn()" (click)="logout()">Logout</button>
+    </form>
+    <p id="error-message" class="error-message"></p>
+    <a class="startButton" href="#" routerLink="/register" routerLinkActive="active">
+        You don't have an account? Register here</a>
+</div>
+    
+
+
+

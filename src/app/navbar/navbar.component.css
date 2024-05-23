@@ -1,0 +1,103 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 165, 0);
+    font-size: 20px;
+}
+
+.functions {
+    display: flex;
+    align-items: center;
+    color: #1867b7;
+}
+
+.register-login {
+    display: flex;
+    align-items: center;
+    color: #1867b7;
+}
+
+.UPM-pic{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.Home-button {
+    align-items: center;
+    margin-right: 40px;
+    background: transparent;
+    border: none;
+    color: #1867b7;
+    margin-left: 30px;;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.Home {
+    align-items: center;
+    margin-right: 40px;
+    background: transparent;
+    border: none;
+    color: #1867b7;
+    margin-left: 0px;;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.home-img {
+    position: relative;
+    height: 20px;
+    align-content: bottom;
+    margin-bottom: 0px;
+    top: 2px;
+}
+
+.RegisterLogin {
+    margin-right: 40px;
+    border: none;
+    background: transparent;
+    color: #1867b7;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.information {
+    margin-top: 100px;
+    margin-left: 350px;
+    margin-right: 200px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #1867b7;
+    background-color: rgb(255, 165, 0);
+    font-size: 20px;
+}
+
+.startButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(252, 252, 252);
+    color: #1867b7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#ufo { position:absolute;bottom:375px;left:0px;}
+

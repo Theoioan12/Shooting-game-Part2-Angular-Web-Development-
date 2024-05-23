@@ -1,0 +1,44 @@
+<!--
+  This time I have the same table 2 times.
+  One is for the logged users.
+-->
+
+<div class="information">
+  <h2>Final Score</h2>
+  <div class="final-score">
+    <span><strong>Final Score:</strong> {{ finalScore }}</span>
+  </div>
+  
+  <!--
+    All the records
+  -->
+  <h2 class="title">Top 10 Records</h2>
+  <ul class="records-list">
+    <li *ngFor="let record of topRecords" class="record-item">
+      <div class="record-details">
+        <span><strong>Username:</strong> {{ record.username }}</span>
+        <span><strong>Score:</strong> {{ record.punctuation }}</span>
+        <span><strong>UFOs:</strong> {{ record.ufos }}</span>
+        <span><strong>Disposed Time:</strong> {{ record.disposedTime }}</span>
+        <span><strong>Record Date:</strong> {{ record.recordDate | date: 'medium' }}</span>
+      </div>
+    </li>
+  </ul>
+
+  <!--
+    The user's records
+  -->
+  <h2 class="title">Your Top 10 Records</h2>
+  <ul class="records-list">
+    <li *ngFor="let userRecord of userRecords" class="record-item">
+      <div class="record-details">
+        <span><strong>Your username:</strong> {{ userRecord.username }}</span>
+        <span><strong>Your Score:</strong> {{ userRecord.punctuation }}</span>
+        <span><strong>Your UFOs:</strong> {{ userRecord.ufos }}</span>
+        <span><strong>Your disposed Time:</strong> {{ userRecord.disposedTime }}</span>
+        <span><strong>Your record date:</strong> {{ userRecord.recordDate | date: 'medium' }}</span>
+      </div>
+    </li>
+  </ul>
+  <button class="startButton" href="#" routerLink="/preferences" routerLinkActive="active">Try again</button>
+</div>

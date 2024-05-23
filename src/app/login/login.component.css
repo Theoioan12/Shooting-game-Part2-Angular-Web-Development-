@@ -1,0 +1,77 @@
+
+#midiv {margin:auto; display:block;width:50%; margin-top:100px}
+        form {width:100%;}
+        input{text-align:right}
+        fieldset{border:1px solid;
+        border-bottom-color: rgb(255, 165, 0);
+        border-right-color: rgb(255, 165, 0);
+        border-top-color: #1867b7; 
+        border-left-color: #1867b7; }
+      legend{font-style:italic; font-size:8pt}
+
+#result{width:60%;
+        height:150px;
+        background-color: rgb(255, 165, 0);
+        color: #1867b7; 
+        border: 1px solid black; 
+        margin:auto; 
+        padding-top:30px;
+        margin-top:200px;font-size:12pt;
+        overflow: auto;
+        box-sizing: border-box;
+        font-family: monospace;
+        font-size: 20px;}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color: rgb(255, 165, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: monospace;
+    color: #1867b7;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1867b7;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+button:hover {
+    background-color: #f10e0e;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

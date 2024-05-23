@@ -1,0 +1,35 @@
+#missile {position:absolute;bottom:10px;
+    left:300px; height:70px;}
+
+#points {position:absolute;bottom:10px;
+   right:30px;width:150px;height:50px;
+   background-color:rgb(255, 165, 0);color:#1867b7;
+   text-align:center; font-size:18pt; padding-top:20px;
+   font-family: monospace;}  
+   
+#time {
+   position: absolute;
+   bottom: 10px;
+   left: 30px;
+   width: 150px;
+   height: 50px;
+   background-color: rgb(255, 165, 0);
+   color: #1867b7;
+   text-align: center;
+   font-size: 18pt;
+   padding-top: 20px;
+   font-family: monospace;
+}
+
+.body {
+   background-color: #f0f0f0;
+}
+ 
+p {
+   font-size: 24px;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+ }
+ 

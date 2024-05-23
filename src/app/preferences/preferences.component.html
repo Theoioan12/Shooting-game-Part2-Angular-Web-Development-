@@ -1,0 +1,30 @@
+<!--
+    Almost the same as the one from last project.
+    But this time it is adapted for more angular 
+    functionalities.
+-->
+<header>
+    <h1>UFO Game Preferences</h1>
+</header>
+<div class="preferences-container">
+<header>
+    <h1>UFO Game Preferences</h1>
+</header>
+
+<div class="preferences-form">
+    <form (ngSubmit)="savePreferences()" #preferencesForm="ngForm">
+        <label for="numUFOs">Number of UFOs (1-5):</label>
+        <input type="number" id="numUFOs" name="numUFOs" min="1" max="5" [(ngModel)]="selectedUFOs" ngModel
+            #numUFOs="ngModel" required><br><br>
+
+        <label for="playtime">Playtime (seconds):</label>
+        <select id="playtime" name="playtime" [(ngModel)]="selectedTime" ngModel #playtime="ngModel" required>
+            <option value="60">60 seconds</option>
+            <option value="120">120 seconds</option>
+            <option value="180">180 seconds</option>
+        </select><br><br>
+
+        <button type="submit" [disabled]="!preferencesForm.valid">Accept</button>
+    </form>
+</div>
+</div>

@@ -1,0 +1,59 @@
+.title {
+  margin-bottom: 20px;
+  color: #1867b7; 
+  display: inline-block;
+}
+
+.records-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.record-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #1867b7;
+}
+
+.record-details {
+  display: block;
+  padding: 5px;
+}
+
+.record-details span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.startButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: rgb(255, 165, 0);
+  color: #1867b7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.startButton:hover {
+  background-color: #ffaa00; 
+}
+
+.final-score {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #1867b7;
+  text-align: center; 
+  font-size: 18px;
+  font-weight: bold;
+}
